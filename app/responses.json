@@ -1,0 +1,141 @@
+{
+    "intents": [
+        {
+            "patterns": ["hi", "hello", "hey", "greetings", "good morning", "good afternoon"],
+            "responses": [
+                "Hello! Welcome to our store. How can I assist you today?",
+                "Hi there! How may I help you?",
+                "Greetings! What can I do for you?"
+            ]
+        },
+        {
+            "patterns": ["bye", "goodbye", "see you", "see ya", "farewell"],
+            "responses": [
+                "Goodbye! Have a wonderful day!",
+                "Thanks for visiting! Come back soon!",
+                "See you later! Don't hesitate to reach out if you need anything."
+            ]
+        },
+        {
+            "patterns": ["hours", "opening times", "when are you open", "business hours"],
+            "responses": [
+                "We're open Monday to Friday, 9am to 5pm, and Saturday 10am to 3pm.",
+                "Our regular hours are weekdays 9-5 and Saturdays 10-3. We're closed Sundays.",
+                "Store hours: Mon-Fri 9:00 AM - 5:00 PM, Sat 10:00 AM - 3:00 PM"
+            ]
+        },
+        {
+            "patterns": ["contact", "phone number", "email", "how to contact", "customer service"],
+            "responses": [
+                "You can reach us at contact@example.com or call 123-456-7890 during business hours.",
+                "Our customer service team is available at support@example.com or (123) 456-7890.",
+                "Contact options:\n- Phone: 123-456-7890\n- Email: help@example.com\n- Live Chat: Available on our website"
+            ]
+        },
+        {
+            "patterns": ["products", "what do you sell", "offerings", "inventory"],
+            "responses": [
+                "We specialize in three product categories:\n1. Electronics\n2. Home Goods\n3. Office Supplies\nVisit our products page for details!",
+                "Our current offerings include electronics, home goods, and office supplies. Is there a specific category you're interested in?",
+                "We offer a wide range of products. You can browse by category on our website or ask me about specific items."
+            ]
+        },
+        {
+            "patterns": ["shipping", "delivery", "how long for delivery"],
+            "responses": [
+                "Standard shipping takes 3-5 business days. Express options are available at checkout.",
+                "Delivery times vary by location:\n- Local: 1-2 days\n- National: 3-5 days\n- International: 7-14 days",
+                "We offer free shipping on orders over $50. Most orders ship within 24 hours."
+            ]
+        },
+        {
+            "patterns": ["return policy", "returns", "can I return"],
+            "responses": [
+                "We accept returns within 30 days of purchase with receipt. Visit our Returns page for details.",
+                "Our return policy allows for returns within 30 days, provided items are unused and in original packaging.",
+                "You can return most items within 30 days. Some exclusions apply. See our Returns & Refunds policy online."
+            ]
+        },
+        {
+            "patterns": ["payment options", "what payments do you accept", "credit cards"],
+            "responses": [
+                "We accept Visa, Mastercard, American Express, PayPal, and Apple Pay.",
+                "Payment methods include all major credit cards, PayPal, and select digital wallets.",
+                "You can pay with:\n- Credit/Debit Cards\n- PayPal\n- Apple Pay\n- Google Pay"
+            ]
+        },
+        {
+            "patterns": ["discount", "coupon", "promo code", "sale"],
+            "responses": [
+                "We currently have a 15% off sale on select items. Use code WELCOME15 at checkout!",
+                "Sign up for our newsletter to receive exclusive discounts and promotions.",
+                "Our current promotions change regularly. Check the 'Special Offers' page for the latest deals."
+            ]
+        },
+        {
+            "patterns": ["track order", "where is my order", "order status"],
+            "responses": [
+                "You can track your order by logging into your account or using the tracking number from your confirmation email.",
+                "For order status, please provide your order number and I can check for you.",
+                "Order tracking is available in your account dashboard or via the link in your shipping confirmation email."
+            ]
+        },
+        {
+            "patterns": ["account", "login", "sign in", "password"],
+            "responses": [
+                "You can login to your account at our website's login page. Need help resetting your password?",
+                "Account login is at the top right of our website. Forgot password? Click 'Reset Password' on the login page.",
+                "To access your account, visit our login page. Contact support if you're having trouble signing in."
+            ]
+        },
+        {
+            "patterns": ["price match", "price guarantee", "lowest price"],
+            "responses": [
+                "We offer a 14-day price match guarantee on identical items from authorized retailers.",
+                "If you find a lower price within 14 days of purchase, we'll match it. See our Price Match Policy for details.",
+                "Our price match policy applies to identical products from competitors. Contact customer service with details."
+            ]
+        },
+        {
+            "patterns": ["warranty", "guarantee", "product warranty"],
+            "responses": [
+                "Most products come with a 1-year manufacturer's warranty. Extended warranties are available for purchase.",
+                "Our standard warranty covers defects for 12 months from purchase date. Check your product documentation for specifics.",
+                "Warranty terms vary by product. You can find warranty information on the product page or in your receipt email."
+            ]
+        },
+        {
+            "patterns": ["help", "support", "customer service"],
+            "responses": [
+                "I'm here to help! What do you need assistance with? You can ask about orders, products, or company policies.",
+                "How can I assist you today? I can help with orders, returns, product info, and more.",
+                "For immediate assistance, you can also contact our customer service team at support@example.com or 123-456-7890."
+            ]
+        },
+        {
+            "patterns": ["thank you", "thanks", "appreciate it"],
+            "responses": [
+                "You're very welcome! Is there anything else I can help with?",
+                "My pleasure! Don't hesitate to ask if you need anything else.",
+                "Happy to help! Let me know if you have any other questions."
+            ]
+        },
+        {
+            "patterns": ["about us", "who are you", "company info"],
+            "responses": [
+                "We're a family-owned business established in 2010, specializing in quality products with excellent customer service.",
+                "Our company has been serving customers for over a decade with a commitment to quality and satisfaction.",
+                "We're a trusted retailer focused on providing great products at competitive prices with outstanding service."
+            ]
+        },
+        {
+            "patterns": ["location", "store location", "where are you located"],
+            "responses": [
+                "Our flagship store is at 123 Main Street, Anytown, USA. We also ship nationwide!",
+                "We're based in Anytown, USA but serve customers worldwide through our online store.",
+                "Physical store address:\n123 Main Street\nAnytown, USA 12345\nHours: Mon-Fri 9-5, Sat 10-3"
+            ]
+        }
+    ],
+    "default_response": "I'm not sure I understand. Could you rephrase your question? You can ask about our products, services, policies, or company information."
+}
